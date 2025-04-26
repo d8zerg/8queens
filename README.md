@@ -1,4 +1,4 @@
-# # 8 Queens Problem Solver with SFML Visualization
+# # 8 Queens Problem Solver with SFML visualization
 
 ## Description
 
