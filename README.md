@@ -46,5 +46,5 @@ dnf install SFML-devel cmake g++
 
 ## Gratitude
 
-The SFML team for the excellent library
-The C++ community for inspiration
+- The SFML team for the excellent library
+- The C++ community for inspiration
