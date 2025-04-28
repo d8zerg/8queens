@@ -31,8 +31,8 @@ The project includes:
 - for Ubuntu/Debian:
 ```bash
 apt install libsfml-dev cmake g++ 
-git clone https://github.com/your-repo/8-queens-sfml.git
-cd 8-queens-sfml
+git clone https://github.com/your-repo/8queens.git
+cd 8queens
 mkdir build && cd build
 cmake ..
 make
