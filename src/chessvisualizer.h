@@ -14,7 +14,8 @@ class ChessVisualizer
             {
                 std::cerr << "Failed to load queen texture. Using fallback shape.\n";
                 use_texture_ = false;
-            } else {
+            } else 
+            {
                 queen_sprite_.setTexture(queen_texture_);
                 float scale = CELL_SIZE * 0.8f / queen_texture_.getSize().x;
                 queen_sprite_.setScale(scale, scale);
