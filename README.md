@@ -21,8 +21,8 @@ The project includes:
 ## Requirements
 
 - Compiler with C++20 support (GC 10+, Clang 10+, MSVC 19.28+)
-- SFML library (version 2.5+)
-- CMake (version 3.12+) for assembly
+- SFML library (version 2.6+)
+- CMake (version 3.20+) for assembly
 
 ## Installation and assembly
 
