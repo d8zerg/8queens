@@ -80,9 +80,7 @@ public:
         
         for (const auto& sol : solutions_) 
         {
-            for (int pos : sol) {
-                file << pos << ' ';
-            }
+            for (int pos : sol) file << pos << ' ';            
             file << '\n';
         }
         
@@ -99,10 +97,7 @@ public:
         
         while (file >> sol[0]) 
         {
-            for (int i = 1; i < BOARD_SIZE; ++i) 
-            {
-                file >> sol[i];
-            }
+            for (int i = 1; i < BOARD_SIZE; ++i) file >> sol[i];
             solutions_.push_back(sol);
         }
         
